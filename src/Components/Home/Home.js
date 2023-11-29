@@ -17,7 +17,7 @@ const Home = () => {
         };
   return (
     <div>
-        <Slider {...settings} className='mb-5 border-none'>
+        <Slider {...settings} className='w-[95%] m-auto'>
             <div>
                 <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-23102023-MainBannerDailyChanging-Z1-P3-DillingerTheBeaHouse-min60.jpg" alt=""/>
             </div>

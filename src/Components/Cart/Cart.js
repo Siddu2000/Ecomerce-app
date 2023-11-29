@@ -24,7 +24,6 @@ const Cart = () => {
         border-separate
         border-spacing-x-[10rem]
         border-spacing-y-[1rem] border-b-slate-900 border '
-        
         >
           <thead className= 'border-b-slate-900 border' >
             <tr className= 'border-b-slate-900 border' >
@@ -34,8 +33,7 @@ const Cart = () => {
               <th>REMOVE</th>
             </tr>
             </thead>
-            <tbody>
-       
+            <tbody>       
         {cart?.map((item, index) => (
           <tr key={index} >
            <td> 
