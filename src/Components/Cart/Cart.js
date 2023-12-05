@@ -13,9 +13,6 @@ const Cart = () => {
       dispatch(getTotal());
     },[cart,dispatch]);
 
- 
-  
-
   return cart.length===0 ? (<NavLink to="/"><img className='w-[30rem] m-auto h-72 mb-20'  src="https://wpmet.com/wp-content/uploads/2022/09/EmptyCart_3-Copy.png" alt='empty'/></NavLink>):( 
     <div>
         <h1 className='text-center text-3xl text-green-500 my-4'>Shopping 🛍️ Cart</h1>
