@@ -16,8 +16,23 @@ const Home = () => {
         cssEase: "linear"
         };
   return (
+    <>
+    <style>
+    {`
+      .slick-prev {
+        left: 10px;
+        z-index:9999 !important
+      }
+
+      .slick-next {
+        right: 10px;
+        z-index:9999 !important
+      }
+
+    `}
+  </style>
     <div>
-        <Slider {...settings} className='w-[95%] m-auto'>
+        <Slider {...settings} className='w-[100%] m-auto'>
             <div>
                 <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-23102023-MainBannerDailyChanging-Z1-P3-DillingerTheBeaHouse-min60.jpg" alt=""/>
             </div>
@@ -33,6 +48,7 @@ const Home = () => {
         </Slider>
 <MyComponents/>
     </div>
+    </>
   )
 }
 
