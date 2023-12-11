@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { clearCart,removeFromCart,increaseQuantity,decreaseQuantity, getTotal } from '../../Slices/CartSlice';
 import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
-import { AiOutlineDelete } from "react-icons/ai";
+// import { AiOutlineDelete } from "react-icons/ai";
 import { NavLink } from 'react-router-dom';
 
 const Cart = () => {
